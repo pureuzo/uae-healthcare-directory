@@ -1,0 +1,34 @@
+[33mcommit 40f2eaf07f80b7cc0f029b6f5628498af68e2b31[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Uzo Uzoigwe <pureuzo@gmail.com>
+Date:   Thu May 28 14:27:50 2026 +0400
+
+    MVP ready for production deployment
+
+A	.env.local.example
+A	.gitignore
+A	API_REFERENCE.md
+A	LAUNCH_CHECKLIST.md
+A	MVP_SUMMARY.md
+A	PROJECT_STRUCTURE.txt
+A	README.md
+A	SETUP.md
+A	START_HERE.md
+A	WHAT_YOU_HAVE.txt
+A	app/about/page.tsx
+A	app/layout.tsx
+A	app/page.tsx
+A	app/signup/page.tsx
+A	components/DoctorCard.tsx
+A	components/DoctorSearch.tsx
+A	components/Footer.tsx
+A	components/Header.tsx
+A	jsconfig.json
+A	next-env.d.ts
+A	next.config.js
+A	package-lock.json
+A	package.json
+A	postcss.config.js
+A	seed_doctors.py
+A	styles/globals.css
+A	tailwind.config.js
+A	tsconfig.json
