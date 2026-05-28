@@ -36,6 +36,10 @@ export default function DoctorSearch() {
         query = query.ilike('location', `%${filters.location}%`)
       }
 
+      if (filters.insurance) {
+  query = query.overlaps('insurance_accepted', [filters.insurance])
+      }
+
       const { data, error: fetchError } = await query.limit(50)
 
       if (fetchError) {
